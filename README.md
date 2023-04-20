@@ -7,6 +7,7 @@ my dotfiles lol
 - music: cmus, glava, p
 - wm: awesome
 - os: arch
+- calendar: calcurse
 - fonts: 
    - monospace: [Fairfax Serif Hax](https://github.com/kreativekorp/open-relay/tree/master/Fairfax)
    - terminal: Fairfax SM, SM Bold, SM Italic (though i think its having some issues displaying for some reason)
