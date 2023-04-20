@@ -5,7 +5,7 @@ my dotfiles lol
 - editors: vim, notepadqq
 - cmd: kitty
 - music: cmus, glava, p
-- wm: awesome
+- wm: awesome w/picom
 - os: arch
 - calendar: calcurse
 - fonts: 
