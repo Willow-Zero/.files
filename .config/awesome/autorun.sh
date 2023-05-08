@@ -16,15 +16,10 @@ run "thunderbird"
 run "firefox"
 run "pidgin"
 run "steam"
-run "discord"
 run "kitty"
-
-run "kitty xcompmgr"
-run "kitty devilspie -a"
+run "discord"
 
 
-
-run "kitty kmix"
 run "kitty cmus"
 run "kitty irssi"
 
