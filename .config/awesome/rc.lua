@@ -51,7 +51,10 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+--beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), "default")
+beautiful.init(theme_path)
+
 beautiful.useless_gap = 10
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
@@ -76,13 +79,13 @@ awful.layout.layouts = {
     awful.layout.suit.fair.horizontal,
     awful.layout.suit.spiral,
     awful.layout.suit.spiral.dwindle,
-  --  awful.layout.suit.max,
-  --  awful.layout.suit.max.fullscreen,
-  --  awful.layout.suit.magnifier,
+    awful.layout.suit.max,
+    awful.layout.suit.max.fullscreen,
+    awful.layout.suit.magnifier,
     awful.layout.suit.corner.nw,
-    -- awful.layout.suit.corner.ne,
-    -- awful.layout.suit.corner.sw,
-    -- awful.layout.suit.corner.se,
+    awful.layout.suit.corner.ne,
+    awful.layout.suit.corner.sw,
+    awful.layout.suit.corner.se,
 }
 -- }}}
 
@@ -160,6 +163,8 @@ local tasklist_buttons = gears.table.join(
                                               awful.client.focus.byidx(-1)
                                           end))
 
+
+
 local function set_wallpaper(s)
     -- Wallpaper
     if beautiful.wallpaper then
@@ -174,7 +179,7 @@ end
 
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
 screen.connect_signal("property::geometry", set_wallpaper)
-beautiful.wallpaper = "/home/zero/.config/awesome/themes/default/background.jpg"
+beautiful.wallpaper = "/home/zero/.config/awesome/themes/default/backgroundnew.jpg"
 awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
@@ -231,7 +236,8 @@ awful.screen.connect_for_each_screen(function(s)
 					            }),
 	    cmus_widget(),
 	    volume_widget{
-		                widget_type = 'arc'
+		                widget_type = 'arc',
+						card = 0
 				        },
 		 brightness_widget{
 				program="brightnessctl",
@@ -470,7 +476,9 @@ awful.key({modkey}, "XF86AudioPlay", function () cmus_widget:play_pause() end, {
 
 
 	--screenshots
-	
+	awful.key({  }, "XF86AudioRaiseVolume", function() volume_widget:inc(5) end),
+awful.key({  }, "XF86AudioLowerVolume", function() volume_widget:dec(5) end),
+awful.key({  }, "XF86AudioMute", function() volume_widget:toggle() end),
 
  awful.key({modkey}, "Print", function () awful.util.spawn("scrot -e 'mv $f ~/screenshots/ 2>/dev/null'", false) end)
     )
@@ -591,7 +599,7 @@ awful.spawn("kitty cowsay $(fortune)", {
 --awful.spawn.once("discord", {
 --	tag	="msg"})
 
-awful.spawn.once("pidgin", {
+awful.spawn.once("kitty finch", {
 	tag		= "msg"})
 --awful.spawn("kitty lynx", {
 --	tag		= "www"	})
@@ -605,11 +613,11 @@ awful.spawn.once("kitty cmus", {
  --   tag	="2",
 --	request_no_titlebar	="true",	
 --	})
-awful.spawn.once("kitty irssi", {
-	tag	="msg"})
+--awful.spawn.once("kitty irssi", {
+--	tag	="msg"})
 awful.spawn.with_shell()
 awful.spawn.with_shell()
-awful.spawn.with_shell()
+awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/themes/default/backgroundnew.jpg")
 
 
 -- {{{ Signals
