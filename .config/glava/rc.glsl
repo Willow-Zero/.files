@@ -52,7 +52,7 @@
 
 /* Window background color (RGB format).
    Does not work with `setopacity "xroot"` */
-#request setbg 00000000
+#request setbg FFFFFFBB
 
 /* (X11 only) EWMH Window type. Possible values are:
    

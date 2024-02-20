@@ -58,7 +58,7 @@ beautiful.init(theme_path)
 beautiful.useless_gap = 10
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
-editor = os.getenv("EDITOR") or "nano"
+editor = os.getenv("EDITOR") or "emacs"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -102,8 +102,6 @@ myawesomemenu = {
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "open terminal", terminal },
 				    { "web browser", "firefox" },
-				    { "bad wolf", "badwolf" },
-				    { "gaming", "steam" },
 				    { "im", "pidgin" },
 				    { "email", "thunderbird" }
                                   }
@@ -185,9 +183,61 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "www", "msg", "gme", "work", "7", "8", "9" }, s, awful.layout.layouts[6])
+ --   awful.tag({ "1", "2", "www", "msg", "gme", "work", "7", "8", "9" }, s, awful.layout.layouts[6])
 
-    -- Create a promptbox for each screen
+
+awful.tag.add("1", {
+    icon               = "/home/zero/.config/awesome/calendar.svg",
+    layout             = awful.layout.suit.corner.sw,
+    selected           = true,
+})
+
+awful.tag.add("2", {
+    icon = "/home/zero/.config/awesome/coffee.svg",
+    layout = awful.layout.suit.fair,
+})
+
+awful.tag.add("www", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/globe.svg"
+
+})
+
+awful.tag.add("msg", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/mail.svg",
+	icon_ony = true
+})
+
+awful.tag.add("gme", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/star.svg"
+})
+
+awful.tag.add("work", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/code.svg"
+})
+
+awful.tag.add("7", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/clipboard.svg"
+})
+
+awful.tag.add("8", {
+	layout = awful.layout.suit.fair,
+	icon = "/home/zero/.config/awesome/activity.svg"
+})
+
+awful.tag.add("9", {
+	layout = awful.layout.suit.fair,
+	icon="/home/zero/.config/awesome/disc.svg"
+})
+
+
+
+
+    -- Create a promptbox for ach screen
     s.mypromptbox = awful.widget.prompt()
     -- Create an imagebox widget which will contain an icon indicating which layout we're using.
     -- We need one layoutbox per screen.
@@ -198,7 +248,7 @@ awful.screen.connect_for_each_screen(function(s)
                            awful.button({ }, 4, function () awful.layout.inc( 1) end),
                            awful.button({ }, 5, function () awful.layout.inc(-1) end)))
     -- Create a taglist widget
-    s.mytaglist = awful.widget.taglist {
+ s.mytaglist = awful.widget.taglist {
         screen  = s,
         filter  = awful.widget.taglist.filter.all,
         buttons = taglist_buttons
@@ -208,7 +258,8 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
         filter  = awful.widget.tasklist.filter.currenttags,
-        buttons = tasklist_buttons
+        buttons = tasklist_buttons,
+	widget = wibox.widget.textbox
     }
 
     -- Create the wibox
@@ -237,7 +288,8 @@ awful.screen.connect_for_each_screen(function(s)
 	    cmus_widget(),
 	    volume_widget{
 		                widget_type = 'arc',
-						card = 0
+						card = 0,
+				device = "default"
 				        },
 		 brightness_widget{
 				program="brightnessctl",
@@ -472,9 +524,27 @@ for i = 1, 9 do
                   end,
                   {description = "toggle focused client on tag #" .. i, group = "tag"}),
 		--cmus
-awful.key({modkey}, "XF86AudioPlay", function () cmus_widget:play_pause() end, {description = "toggle track",   group = "cmus"}),			
+awful.key({modkey}, "XF86AudioPlay", function () cmus_widget:play_pause() end, {description = "toggle track",   group = "cmus"}),
+--resize
+awful.key({ modkey, "Shift"    }, "Right",     function () awful.tag.incmwfact( 0.01)    end),
+awful.key({ modkey, "Shift"    }, "Left",     function () awful.tag.incmwfact(-0.01)    end),
+awful.key({ modkey, "Shift"    }, "Down",     function () awful.client.incwfact( 0.01)    end),
+awful.key({ modkey, "Shift"    }, "Up",     function () awful.client.incwfact(-0.01)    end),
 
 
+
+
+awful.key(
+    {modkey},
+    "l",
+    function()
+	for s in screen do 
+	        awful.util.spawn("kitty cmatrix", {floating = true, screen = s, fullscreen = true})
+	end
+        awful.spawn.with_shell("alock -bg none && pkill cmatrix")
+    end,
+    {description = "matrixlock", group = "super"}
+),
 	--screenshots
 	awful.key({  }, "XF86AudioRaiseVolume", function() volume_widget:inc(5) end),
 awful.key({  }, "XF86AudioLowerVolume", function() volume_widget:dec(5) end),
@@ -554,52 +624,61 @@ awful.rules.rules = {
     { rule_any = {type = { "normal", "dialog" }
       }, properties = { titlebars_enabled = true }
     },
+    {rule = {name = "GLava"
+    	  }, properties = { titlebars_enabled = false }
+	  },
 
      --  Set Firefox to always map on the tag named "2" on screen 1.
-     { rule = { class = "steam"},
-       properties = { screen = 1, tag = "gme" } },
-     { rule = { name = "steam"},
-       properties = { screen = 1, tag = "gme" } },
-     { rule = { name = "Friends List"},
-       properties = { screen = 1, tag = "gme" } },
+--     { rule = { class = "steam"},
+--       properties = { screen = 1, tag = "gme" } },
+--     { rule = { name = "steam"},
+--       properties = { screen = 1, tag = "gme" } },
+--     { rule = { name = "Friends List"},
+--       properties = { screen = 1, tag = "gme" } },
      { rule = { class = "pidgin"},
        properties = { screen = 1, tag = "msg" } },
-     { rule = { class = "thunderbird"},
+     { rule = { name = "pidgin"},
        properties = { screen = 1, tag = "msg" } },
+     { rule = { name = "Buddy List"},
+       properties = { screen = 1, tag = "msg" } },
+     { rule = { name = "Accounts"},
+       properties = { screen = 1, tag = "msg" } },
+--     { rule = { class = "thunderbird"},
+--       properties = { screen = 1, tag = "msg" } },
   
 
 }
 -- }}}
 --Autorun
 
+awful.spawn("killall glava")
 
-
-awful.spawn.with_shell("~/.config/awesome/autorun.sh")
+--awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 
 
 
 
 --awful.spawn.with_shell("xcompmgr")
 --awful.spawn.with_shell("devilspie -a")
-awful.spawn.with_shell("kmix",{
-		hidden	=true})
+--awful.spawn.with_shell("kmix",{
+--		hidden	=true})
 awful.spawn.with_shell("picom -b",{
 	})
-awful.spawn.once("firefox", {
-	tag	="www"})
-awful.spawn.once("thunderbird", {
-	tag	="www"})
-awful.spawn.once("steam", {
-	tag	="gme"})
+--awful.spawn.once("firefox", {
+--	tag	="www"})
+--awful.spawn.once("thunderbird", {
+--	tag	="www"})
+--awful.spawn.once("steam", {
+--	tag	="gme"})
 awful.spawn.once("nm-applet", {})
-awful.spawn.once("kitty cmatrix -a -C magenta", {
-	tag		= "2"})
-awful.spawn("kitty cowsay $(fortune)", {
-	tag		= "2"})
+--awful.spawn.once("kitty cmatrix -a -C magenta", {
+--	tag		= "2"})
+--awful.spawn("kitty cowsay $(fortune)", {
+--	tag		= "2"})
 --awful.spawn.once("discord", {
 --	tag	="msg"})
 
-awful.spawn.once("kitty finch", {
+awful.spawn.once("pidgin", {
 	tag		= "msg"})
 --awful.spawn("kitty lynx", {
 --	tag		= "www"	})
@@ -607,18 +686,22 @@ awful.spawn.once("kitty finch", {
 --	tag 	= "msg"})
 --awful.spawn("kitty", {
 --	tag	= "1"})
-awful.spawn.once("kitty cmus", {
-	tag	="2"})
---awful.spawn.once("kitty nohup glava &", {
- --   tag	="2",
---	request_no_titlebar	="true",	
---	})
+
+awful.spawn.once("glava", {
+	tag	="1",
+	request_no_titlebar	="true",
+	placement="awful.placement.top_left"})
+awful.spawn.with_shell("python ~/work/updateflatpak.py",{
+	tag=8})
 --awful.spawn.once("kitty irssi", {
 --	tag	="msg"})
-awful.spawn.with_shell()
-awful.spawn.with_shell()
-awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/themes/default/backgroundnew.jpg")
-
+--awful.spawn.with_shell()
+--awful.spawn.with_shell()
+--awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/themes/default/backgroundnew.jpg")
+awful.spawn.once("kitty cmus", {
+	tag	="1",
+	placement	= "awful.placement.bottom_right"
+	})
 
 -- {{{ Signals
 -- Signal function to execute when a new client appears.
