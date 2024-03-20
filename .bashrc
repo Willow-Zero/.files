@@ -17,7 +17,7 @@ alias rancercmds='sudo vim ~/.config/ranger/commands.py'
 alias rangerrifle='sudo vim ~/.config/ranger/rifle.conf'
 
 alias rangersup='notepadqq ~/.config/ranger/rc.conf'
-
+alias bandownload='bandcamp-dl -ruk --template="%{artist}/[%{date}] %{album}/%{track} - %{title}"'
 
 alias connect='gnome-control-center'
 alias configrub='notepadqq /etc/default/grub'
@@ -28,7 +28,7 @@ alias podcasts='podbit'
 alias youtube='ytfzf'
 
 alias makegrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-
+alias polycomp='dot -Tsvg -O polycule.dot'
 alias bashrc='notepadqq ~/.bashrc'
 alias lynx='lynx --display_charset=utf-8'
 alias ssvr='cmatrix -as -C magenta'
@@ -66,3 +66,6 @@ PS1='\a \u \W > '
 
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
+
+# Created by `pipx` on 2024-03-13 04:01:37
+export PATH="$PATH:/home/wren/.local/bin"
