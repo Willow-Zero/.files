@@ -1,0 +1,6 @@
+.minecraft/versions/*
+.minecraft/webcache2/*
+.minecraft/assets/*
+.minecraft/runtime/*
+.minecraft/libraries/*
+.minecraft/launcher/*
