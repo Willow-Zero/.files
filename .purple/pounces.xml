@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<pounces version='1.0'>
+	<pounce ui='gtk-gaim'>
+		<account protocol='prpl-irc'>wren@irc.scpwiki.com</account>
+		<pouncee>NickServ</pouncee>
+		<options/>
+		<events>
+			<event type='sign-on'/>
+		</events>
+		<actions>
+			<action type='send-message'/>
+		</actions>
+		<save/>
+	</pounce>
+	<pounce ui='gtk-gaim'>
+		<account protocol='prpl-irc'>wren@irc.scpwiki.com</account>
+		<pouncee>NickServ</pouncee>
+		<options/>
+		<events>
+			<event type='sign-on'/>
+		</events>
+		<actions>
+			<action type='send-message'/>
+		</actions>
+		<save/>
+	</pounce>
+</pounces>

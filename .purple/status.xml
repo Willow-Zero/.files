@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<statuses version='1.0'>
+	<status name='Auto-Cached' transient='true' created='1730214359' lastused='1730214359' usage_count='1'>
+		<state>available</state>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1730143784' lastused='1730143784' usage_count='1'>
+		<state>available</state>
+		<message>~</message>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1718939281' lastused='0' usage_count='0'>
+		<state>away</state>
+		<message>I&apos;m not here right now</message>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1718932739' lastused='0' usage_count='0'>
+		<state>available</state>
+	</status>
+</statuses>

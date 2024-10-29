@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-irc</protocol>
+		<name>Wren@irc.scpwiki.com</name>
+		<password>Doll-Luvr</password>
+		<statuses>
+			<status type='available' name='Available' active='false'>
+				<attributes/>
+			</status>
+			<status type='away' name='Away' active='true'>
+				<attributes>
+					<attribute id='message' value='I&apos;m not here right now'/>
+				</attributes>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='autodetect_utf8' type='bool'>0</setting>
+			<setting name='sasl' type='bool'>0</setting>
+			<setting name='ratelimit-burst' type='int'>5</setting>
+			<setting name='ssl' type='bool'>0</setting>
+			<setting name='encoding' type='string'>UTF-8</setting>
+			<setting name='port' type='int'>6667</setting>
+			<setting name='ratelimit-interval' type='int'>2</setting>
+			<setting name='auth_plain_in_clear' type='bool'>0</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<settings ui='gnt-purple'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>
