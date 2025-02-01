@@ -1,0 +1,1544 @@
+{
+    "version": "5.2",
+    "groups": [
+        {
+            "id": 22,
+            "title": "internship search",
+            "iconColor": "hsla(150, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://job-boards.greenhouse.io/wikimedia?error=true&page=1",
+                    "title": "Jobs at Wikimedia Foundation",
+                    "id": 415
+                },
+                {
+                    "url": "https://www.github.careers/careers-home/jobs",
+                    "title": "GitHub Careers",
+                    "id": 416
+                },
+                {
+                    "url": "https://www.github.careers/careers-home/jobs",
+                    "title": "GitHub Careers",
+                    "id": 417
+                },
+                {
+                    "url": "https://githubinc.jibeapply.com/jobs/3569?iis=Job+Board&iisn=LinkedIn&lever-source=LinkedinPosting&lang=en-us",
+                    "title": "GitHub Careers",
+                    "id": 418
+                },
+                {
+                    "url": "https://www.github.careers/careers-home/jobs",
+                    "title": "GitHub Careers",
+                    "id": 419
+                },
+                {
+                    "url": "https://www.youtube.com/shorts/dnyOwvUWD_g",
+                    "title": "(329) My New Favourite Glaze & Clay? - YouTube",
+                    "id": 420
+                },
+                {
+                    "url": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4022230752&discover=recommended&discoveryOrigin=JOBS_HOME_JYMBII",
+                    "title": "(29) Top job picks for you | LinkedIn",
+                    "id": 421
+                },
+                {
+                    "url": "https://www.amazon.jobs/content/en/teams/amazon-web-services/internships?country[]=US&region[]=New%20York",
+                    "title": "AWS Internships",
+                    "id": 422
+                },
+                {
+                    "url": "https://docs.google.com/document/d/1Aas6nKqvcGQbgMqlKy0T7_xs_5Tcj4xXrW3vBlC-doU/edit?tab=t.0",
+                    "title": "BlackPearl - Google Docs",
+                    "id": 423
+                },
+                {
+                    "url": "https://docs.google.com/document/d/1ZY7Kr6PI2nYKlVm3AT1wSDbuNynRVXVNbx0qmeL5jqA/edit?tab=t.0",
+                    "title": "webdev - Google Docs",
+                    "id": 424
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 2,
+            "title": "coding exercises/problems",
+            "iconColor": "hsla(100, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://leetcode.com/problemset/",
+                    "title": "Problems - LeetCode",
+                    "id": 246
+                },
+                {
+                    "url": "https://recruit.osiris.bar/challenges#Multi-Byte%20XOR-19",
+                    "title": "OSIRIS RecruitCTF",
+                    "id": 247
+                },
+                {
+                    "url": "https://github.com/hellman/xortool",
+                    "title": "GitHub - hellman/xortool: A tool to analyze multi-byte xor cipher",
+                    "id": 248
+                },
+                {
+                    "url": "https://node-security.com/posts/xor-encryption-cracker/",
+                    "title": "XOR Encryption Cracker | Node Security",
+                    "id": 249
+                },
+                {
+                    "url": "https://www.dcode.fr/xor-cipher",
+                    "title": "XOR Cipher - Exclusive OR Calculator - Online Decoder, Encoder",
+                    "id": 250
+                },
+                {
+                    "url": "https://github.com/arpitbbhayani/decipher-single-byte-xor/blob/master/decipher-single-byte-xor.ipynb",
+                    "title": "decipher-single-byte-xor/decipher-single-byte-xor.ipynb at master · arpitbbhayani/decipher-single-byte-xor · GitHub",
+                    "id": 251
+                },
+                {
+                    "url": "https://emn178.github.io/online-tools/base64_decode.html",
+                    "title": "Base64 Decode - Online Tools",
+                    "id": 252
+                },
+                {
+                    "url": "https://recruit.osiris.bar/challenges#sqli-11",
+                    "title": "OSIRIS RecruitCTF",
+                    "id": 253
+                },
+                {
+                    "url": "http://recruit.osiris.bar:32002/login.php?",
+                    "title": "Login",
+                    "id": 254
+                },
+                {
+                    "url": "https://ctf101.org/web-exploitation/sql-injection/what-is-sql-injection/",
+                    "title": "What is SQL Injection - CTF Handbook",
+                    "id": 255
+                },
+                {
+                    "url": "https://leetcode.com/problemset/",
+                    "title": "Problems - LeetCode",
+                    "id": 256
+                },
+                {
+                    "url": "https://leetcode.com/problemset/",
+                    "title": "Problems - LeetCode",
+                    "id": 257
+                },
+                {
+                    "url": "https://leetcode.com/problemset/",
+                    "title": "Problems - LeetCode",
+                    "id": 258
+                },
+                {
+                    "url": "https://leetcode.com/problems/valid-arrangement-of-pairs/description/?envType=daily-question&envId=2024-11-30",
+                    "title": "Valid Arrangement of Pairs - LeetCode",
+                    "id": 259
+                },
+                {
+                    "url": "https://www.reddit.com/r/TheMindIlluminated/comments/953fl7/what_is_stream_entry/",
+                    "title": "What is Stream Entry? : r/TheMindIlluminated",
+                    "id": 260
+                },
+                {
+                    "url": "https://dharmatreasure.org/wp-content/uploads/Enlightenment.pdf",
+                    "title": "Microsoft Word - enlightenment handout final - Enlightenment.pdf",
+                    "id": 261
+                },
+                {
+                    "url": "about:newtab",
+                    "title": "New Tab",
+                    "id": 262
+                },
+                {
+                    "url": "https://adventofcode.com/2024/day/1",
+                    "title": "Day 1 - Advent of Code 2024",
+                    "id": 372
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 4,
+            "title": "group watch sessions",
+            "iconColor": "hsla(30, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.google.com/search?q=twilight%20free%20online",
+                    "title": "twilight free online - Google Search",
+                    "id": 370
+                },
+                {
+                    "url": "https://gtfs.org/documentation/realtime/language-bindings/python/",
+                    "title": "Python - General Transit Feed Specification",
+                    "id": 371
+                },
+                {
+                    "url": "https://pypi.org/project/gtfs-realtime-bindings/",
+                    "title": "gtfs-realtime-bindings · PyPI",
+                    "id": 373
+                },
+                {
+                    "url": "https://minecraft.fandom.com/wiki/Tutorials/Creating_Forge_mods#Things_not_to_do",
+                    "title": "Tutorials/Creating Forge mods – Minecraft Wiki",
+                    "id": 374
+                },
+                {
+                    "url": "https://docs.minecraftforge.net/en/1.21.x/",
+                    "title": "Forge Documentation",
+                    "id": 375
+                },
+                {
+                    "url": "https://docs.google.com/document/u/0/",
+                    "title": "Google Docs",
+                    "id": 376
+                },
+                {
+                    "url": "https://docs.google.com/document/d/14s9xrvWM3xjIBKZ375SZRrU9pQAJMMFKOZzwBgPqS08/edit?tab=t.ylaqf1w0nz82",
+                    "title": "First Dream - Google Docs",
+                    "id": 377
+                },
+                {
+                    "url": "https://github.com/CreeperHost/MineTogether/issues?q=is:issue%20state:open%20connect",
+                    "title": "Issues · CreeperHost/MineTogether",
+                    "id": 378
+                },
+                {
+                    "url": "https://github.com/CreeperHost/MineTogether/issues?q=is:issue%20connect",
+                    "title": "Issues · CreeperHost/MineTogether",
+                    "id": 379
+                },
+                {
+                    "url": "https://github.com/artizirk/wdisplays",
+                    "title": "artizirk/wdisplays: Mirror of cyclopsian/wdisplays",
+                    "id": 380
+                },
+                {
+                    "url": "https://cs.nyu.edu/~mwalfish/classes/25sp/labs.html",
+                    "title": "CS202-001: Labs",
+                    "id": 381
+                },
+                {
+                    "url": "https://knowledge.kitchen/content/courses/software-engineering/schedule/",
+                    "title": "Software Engineering | Knowledge Kitchen",
+                    "id": 382
+                },
+                {
+                    "url": "https://www.humanmetrics.com/personality/isfp-type?d=BuRqoQ78x26qW8Dx4aFWgKwiEb_Me6jZ2fXzqrefvoR-JoaRUYlEL6sotWXv915IqM5FEWSSfs20dgjU77DeemP2gsKKq7Bqx2KFkyRbMKQ1",
+                    "title": "ISFP: Leverage Your Personality Type",
+                    "id": 383
+                },
+                {
+                    "url": "https://brightspace.nyu.edu/d2l/lms/quizzing/user/quiz_submissions.d2l?isprv=0&fromQB=0&qi=399176&cfql=0&ou=428447",
+                    "title": "Quiz Submissions - Knowledge Check: Verbos reflexivos - SPAN-UA 4 2025 Spring 001-12 - NYU",
+                    "id": 384
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=gYwkKaK5yeQ&list=PLr0nckv6sftm3pIOsdNsxRSGqN-ezUmSD&index=18",
+                    "title": "(312) The Cooking Skill That Can't Be Taught - YouTube",
+                    "id": 401
+                },
+                {
+                    "url": "https://nebula.tv/videos/jacob-geller-peggle-might-be-too-pure-for-2024",
+                    "title": "Peggle Might Be Too Pure For 2024 | Nebula",
+                    "id": 402
+                },
+                {
+                    "url": "https://github.com/",
+                    "title": "GitHub",
+                    "id": 403
+                },
+                {
+                    "url": "https://ankiweb.net/account/verify-email",
+                    "title": "Verify Email - AnkiWeb",
+                    "id": 404
+                },
+                {
+                    "url": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQZSsCzXnTkBxSTxspNXnrcqHQg",
+                    "title": "Please verify your email address - amckinnis4@gmail.com - Gmail",
+                    "id": 405
+                },
+                {
+                    "url": "https://ankiweb.net/decks",
+                    "title": "Decks - AnkiWeb",
+                    "id": 406
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 6,
+            "title": "pkmn",
+            "iconColor": "hsla(120, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://pokedextracker.com/u/NyxianGaming/living-dex",
+                    "title": "NyxianGaming's Living Dex | Pokédex Tracker",
+                    "id": 263
+                },
+                {
+                    "url": "https://pokedextracker.com/u/NyxianGaming/scarletdex",
+                    "title": "NyxianGaming's Living Dex | Pokédex Tracker",
+                    "id": 274
+                },
+                {
+                    "url": "https://bulbapedia.bulbagarden.net/wiki/Sweet_Apple",
+                    "title": "Sweet Apple - Bulbapedia, the community-driven Pokémon encyclopedia",
+                    "id": 275
+                },
+                {
+                    "url": "https://bulbapedia.bulbagarden.net/wiki/Tart_Apple",
+                    "title": "Tart Apple - Bulbapedia, the community-driven Pokémon encyclopedia",
+                    "id": 276
+                },
+                {
+                    "url": "https://bulbapedia.bulbagarden.net/wiki/Rare_Candy",
+                    "title": "Rare Candy - Bulbapedia, the community-driven Pokémon encyclopedia",
+                    "id": 277
+                },
+                {
+                    "url": "https://bulbapedia.bulbagarden.net/wiki/Pickup_(Ability)",
+                    "title": "Pickup (Ability) - Bulbapedia, the community-driven Pokémon encyclopedia",
+                    "id": 278
+                },
+                {
+                    "url": "https://docs.google.com/document/u/0/d/1fy0bPKVr8WNQa4jNXYiu3J9bXcrdea6R6Qnrm8wLQtY/mobilebasic?pli=1",
+                    "title": "Professor Oak's Challenge Guide - Let's Go Versions",
+                    "id": 279
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 8,
+            "title": "comms",
+            "iconColor": "hsla(150, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://mail.google.com/mail/u/0/#inbox",
+                    "title": "Inbox (28) - amckinnis4@gmail.com - Gmail",
+                    "id": 328
+                },
+                {
+                    "url": "https://bumble.com/get-started",
+                    "title": "Bumble | Date, Chat, Meet New People & Network Better",
+                    "id": 329
+                },
+                {
+                    "url": "https://discord.com/channels/1219756755379290172/1219767794019864636",
+                    "title": "(8) Discord | #selfies | Freak 4 Freak",
+                    "id": 330
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 9,
+            "title": "school",
+            "iconColor": "hsla(120, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://github.com/software-students-spring2025/0-git-practice-v2-Willow-Zero",
+                    "title": "software-students-spring2025/0-git-practice-v2-Willow-Zero: software-engineering-spring-2025-0-git-practice-v2-git-practice created by GitHub Classroom",
+                    "id": 407
+                },
+                {
+                    "url": "https://github.com/software-students-spring2025/0-git-practice-v2-Willow-Zero/blob/main/instructions.md",
+                    "title": "0-git-practice-v2-Willow-Zero/instructions.md at main · software-students-spring2025/0-git-practice-v2-Willow-Zero",
+                    "id": 408
+                },
+                {
+                    "url": "https://cs.nyu.edu/~mwalfish/classes/25sp/labs/lab1.html",
+                    "title": "CS202: Lab 1: C review, gdb, software skills",
+                    "id": 425
+                },
+                {
+                    "url": "https://makefiletutorial.com/",
+                    "title": "Makefile Tutorial By Example",
+                    "id": 426
+                },
+                {
+                    "url": "https://brightspace.nyu.edu/d2l/home",
+                    "title": "Brightspace - NYU",
+                    "id": 427
+                },
+                {
+                    "url": "https://github.com/Willow-Zero/labs",
+                    "title": "Willow-Zero/labs: Labs for current (25sp) version of CS202",
+                    "id": 428
+                },
+                {
+                    "url": "https://chatgpt.com/c/679c8d84-db28-8003-8f14-6bee3baf0a75",
+                    "title": "C code compilation error",
+                    "id": 429
+                },
+                {
+                    "url": "https://www.geeksforgeeks.org/convert-character-array-to-string-in-c/",
+                    "title": "Convert character array to string in C++ - GeeksforGeeks",
+                    "id": 430
+                },
+                {
+                    "url": "https://chatgpt.com/c/679c9d2b-66ac-8003-938f-7ad80f639a93",
+                    "title": "Religious Steam Group Names",
+                    "id": 431
+                },
+                {
+                    "url": "https://chat.deepseek.com/sign_up",
+                    "title": "DeepSeek - Into the Unknown",
+                    "id": 432
+                },
+                {
+                    "url": "moz-extension://272af25f-acda-49c0-a334-86d671e2634f/help/stg-unsupported-url.html#about:logins#%7B9bee956b-6d93-4448-a0c3-5547de7866cf%7D",
+                    "title": "Passwords",
+                    "id": 433
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 10,
+            "title": "OPINION: stop studying cybersecurity because of me",
+            "iconColor": "hsla(30, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://maia.crimew.gay/posts/",
+                    "title": "maia blog :3",
+                    "id": 385
+                },
+                {
+                    "url": "https://maia.crimew.gay/posts/fuckstalkerware-2/",
+                    "title": "#FuckStalkerware pt. 2 - SpyHide couldnt hide forever",
+                    "id": 386
+                },
+                {
+                    "url": "https://github.com/nyancrimew/goop",
+                    "title": "nyancrimew/goop: Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.",
+                    "id": 387
+                },
+                {
+                    "url": "https://ddosecrets.com/",
+                    "title": "Home - Distributed Denial of Secrets",
+                    "id": 388
+                },
+                {
+                    "url": "about:newtab",
+                    "title": "New Tab",
+                    "id": 389
+                },
+                {
+                    "url": "https://www.google.com/search?q=how+to+make+an+me+interface+face+a+directin+",
+                    "title": "how to make an me interface face a directin - Google Search",
+                    "id": 390
+                },
+                {
+                    "url": "https://docs.google.com/document/d/1RNpPIPCvppQaXk3JLV7_16jk2wpkyJHjgszCd1KWUS4/edit?tab=t.0",
+                    "title": "ZERODAY media consumption list - Google Docs",
+                    "id": 391
+                },
+                {
+                    "url": "https://docs.google.com/document/d/14s9xrvWM3xjIBKZ375SZRrU9pQAJMMFKOZzwBgPqS08/edit?tab=t.0",
+                    "title": "First Dream - Google Docs",
+                    "id": 392
+                },
+                {
+                    "url": "https://docs.google.com/document/d/14s9xrvWM3xjIBKZ375SZRrU9pQAJMMFKOZzwBgPqS08/edit?tab=t.0",
+                    "title": "First Dream - Google Docs",
+                    "id": 393
+                },
+                {
+                    "url": "https://discord.com/channels/@me/1303540051820679220",
+                    "title": "• Discord | Mike Raft",
+                    "id": 394
+                },
+                {
+                    "url": "https://docs.proton.me/doc?mode=open-url&token=ETAMXA2134&linkId=17UZYpnMbg3wNp8k9aMuONJ30nUfD6yO1OMKrNWd6SqEx3xff7dA0SZjdCyhRDRyF3hAh_SQ6wZHartdg6g6KQ%3D%3D#1zHVOCBIULVF",
+                    "title": "guide to domming jess - Proton Docs",
+                    "id": 395
+                },
+                {
+                    "url": "https://www.urbanbodyjewelry.com/products/titanium-internally-threaded-replacement-spikes?variant=41842891292825",
+                    "title": "Titanium Internally Threaded Replacement Spikes | UrbanBodyJewelry.com",
+                    "id": 396
+                },
+                {
+                    "url": "https://www.amazon.com/Peach-Slices-Medical-Grade-Hydrocolloid-Cruelty-Free/dp/B0C1TZ73G3/",
+                    "title": "Amazon.com: Peach Slices | Nose Pore Patches | Medical-Grade Hydrocolloid | Targets Pores & Pimples | Absorbs Oil Overnight | Vegan | Cruelty-Free | Facial Skin Care Products | 7 Ct : Beauty & Personal Care",
+                    "id": 397
+                },
+                {
+                    "url": "https://www.plex.tv/",
+                    "title": "Stream Movies & Find Shows On The Best Streaming Services",
+                    "id": 398
+                },
+                {
+                    "url": "https://app.plex.tv/desktop/#!/provider/tv.plex.provider.discover/details?key=%2Flibrary%2Fmetadata%2F5d9c07f6e98e47001eb03f06",
+                    "title": "Plex",
+                    "id": 399
+                },
+                {
+                    "url": "https://aur.archlinux.org/packages?O=0&SeB=nd&K=minecraft&outdated=&SB=p&SO=d&PP=50&submit=Go",
+                    "title": "AUR (en) - Packages",
+                    "id": 400
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 14,
+            "title": "writing",
+            "iconColor": "hsla(250, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://archiveofourown.org/users/NyxianNightmare",
+                    "title": "NyxianNightmare | Archive of Our Own",
+                    "id": 409
+                },
+                {
+                    "url": "https://www.worldanvil.com/login",
+                    "title": "Login | Welcome to World Anvil | World Anvil",
+                    "id": 410
+                },
+                {
+                    "url": "https://www.worldanvil.com/author/soupscribbles",
+                    "title": "Soupscribbles Author's page | World Anvil",
+                    "id": 411
+                },
+                {
+                    "url": "https://www.worldanvil.com/login",
+                    "title": "Login | Welcome to World Anvil | World Anvil",
+                    "id": 412
+                },
+                {
+                    "url": "https://docs.google.com/document/d/14s9xrvWM3xjIBKZ375SZRrU9pQAJMMFKOZzwBgPqS08/edit?tab=t.q4le8zaf5uf1",
+                    "title": "First Dream - Google Docs",
+                    "id": 413
+                },
+                {
+                    "url": "https://www.worldanvil.com/world/81b3508a-6915-4202-82a0-12d8fe2db319/edit",
+                    "title": "Hello, world!",
+                    "id": 414
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 15,
+            "title": "weirdly stalking azuls bio dad",
+            "iconColor": "hsla(160, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.google.com/search?client=firefox-b-d&q=find+a+person",
+                    "title": "find a person - Google Search",
+                    "id": 334
+                },
+                {
+                    "url": "https://www.google.com/maps/@39.0455004,-77.4774664,3a,75y,72.11h,91.52t/data=!3m7!1e1!3m5!1snB7tqhCqM2FrFyTbXvaaxQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.519999999999996%26panoid%3DnB7tqhCqM2FrFyTbXvaaxQ%26yaw%3D72.11!7i16384!8i8192!5m1!1e2?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+                    "title": "44046 Choptank Terrace - Google Maps",
+                    "id": 335
+                },
+                {
+                    "url": "https://www.anywho.com/people/michael+matthew/ashburn+va/",
+                    "title": "Michael Matthew Phone, Address & Background Info | Anywho",
+                    "id": 336
+                },
+                {
+                    "url": "https://www.truepeoplesearch.com/find/person/px489ul80268rnrll8urn",
+                    "title": "Michael Matthew, Age 54 in Ashburn, VA, (703) 729-7104",
+                    "id": 337
+                },
+                {
+                    "url": "https://www.linkedin.com/in/drmikematthew/recent-activity/comments/",
+                    "title": "(26) Activity | Dr. Michael Matthew | LinkedIn",
+                    "id": 338
+                },
+                {
+                    "url": "https://hidayahacademy.org/academics/#edu",
+                    "title": "Academics - Hidayah Academy",
+                    "id": 339
+                },
+                {
+                    "url": "https://www.instagram.com/p/C9hs1Q4gXyL/",
+                    "title": "Instagram photo by Hidayah Academy • Jul 17, 2024 at 10:07 AM",
+                    "id": 340
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 16,
+            "title": "rss",
+            "iconColor": "hsla(110, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=295942",
+                    "title": "[SOLVED] Bluetoothctl - No default controller available / Newbie Corner / Arch Linux Forums",
+                    "id": 280
+                },
+                {
+                    "url": "https://linux.die.net/man/1/chown",
+                    "title": "chown(1): change file owner/group - Linux man page",
+                    "id": 281
+                },
+                {
+                    "url": "https://www.reddit.com/r/rss/comments/cori2u/any_way_to_get_rss_feeds_from_instagram_freely/",
+                    "title": "Any way to get RSS feeds from Instagram freely? : r/rss",
+                    "id": 282
+                },
+                {
+                    "url": "https://www.reddit.com/r/rss/comments/cori2u/any_way_to_get_rss_feeds_from_instagram_freely/",
+                    "title": "Any way to get RSS feeds from Instagram freely? : r/rss",
+                    "id": 283
+                },
+                {
+                    "url": "https://www.google.com/search?client=firefox-b-1-d&q=instagram+rss",
+                    "title": "instagram rss - Google Search",
+                    "id": 284
+                },
+                {
+                    "url": "https://rss-bridge.org/bridge01/",
+                    "title": "RSS-Bridge",
+                    "id": 285
+                },
+                {
+                    "url": "https://www.piokok.com/profile/decolonizing.love/",
+                    "title": "@decolonizing.love Instagram profile, stories - Piokok",
+                    "id": 286
+                },
+                {
+                    "url": "https://www.reddit.com/r/AITAH/submit/?type=TEXT",
+                    "title": "Submit to r/AITAH",
+                    "id": 287
+                },
+                {
+                    "url": "https://www.reddit.com/r/rss/comments/17dabzy/rss_for_instagram_reels/",
+                    "title": "RSS for instagram Reels : r/rss",
+                    "id": 288
+                },
+                {
+                    "url": "https://www.instagram.com/criticalhitnyc",
+                    "title": "CRITICAL HIT (@criticalhitnyc) • Instagram photos and videos",
+                    "id": 289
+                },
+                {
+                    "url": "https://www.reddit.com/r/SelfhostingHub/comments/15xapgb/proxigram_a_privacy_focused_and_open_source/",
+                    "title": "Proxigram: A privacy focused and open source front-end for Instagram : r/SelfhostingHub",
+                    "id": 290
+                },
+                {
+                    "url": "https://codeberg.org/proxigram/proxigram",
+                    "title": "proxigram/proxigram: A privacy focused and open source front-end for Instagram - Codeberg.org",
+                    "id": 291
+                },
+                {
+                    "url": "https://codeberg.org/proxigram/proxigram/wiki/Instances",
+                    "title": "Instances - proxigram/proxigram - Codeberg.org",
+                    "id": 292
+                },
+                {
+                    "url": "https://www.reddit.com/r/InoReader/",
+                    "title": "Inoreader - Unofficial Subreddit",
+                    "id": 293
+                },
+                {
+                    "url": "https://github.com/zedeus/nitter/wiki/Instances",
+                    "title": "Instances · zedeus/nitter Wiki",
+                    "id": 294
+                },
+                {
+                    "url": "https://twiiit.com/",
+                    "title": "Twiiit redirecting proxy for Nitter.",
+                    "id": 295
+                },
+                {
+                    "url": "https://gram.whatever.social/pow?redirect=/",
+                    "title": "https://gram.whatever.social/pow?redirect=/",
+                    "id": 296
+                },
+                {
+                    "url": "https://privacyredirect.com/",
+                    "title": "https://privacyredirect.com/",
+                    "id": 297
+                },
+                {
+                    "url": "https://codeberg.org/proxigram/proxigram",
+                    "title": "proxigram/proxigram: A privacy focused and open source front-end for Instagram - Codeberg.org",
+                    "id": 298
+                },
+                {
+                    "url": "https://ig.opnxng.com/search?q=hudsonvalleykennelclub",
+                    "title": "Something went wrong... • Proxigram",
+                    "id": 299
+                },
+                {
+                    "url": "https://codeberg.org/proxigram/proxigram",
+                    "title": "proxigram/proxigram: A privacy focused and open source front-end for Instagram - Codeberg.org",
+                    "id": 300
+                },
+                {
+                    "url": "https://codeberg.org/proxigram/proxigram.git/wiki",
+                    "title": "Home - proxigram/proxigram - Codeberg.org",
+                    "id": 301
+                },
+                {
+                    "url": "https://docs.rsshub.app/ecosystem",
+                    "title": "Ecosystem | RSSHub",
+                    "id": 302
+                },
+                {
+                    "url": "https://docs.rsshub.app/routes/social-media#user-profile-picnob",
+                    "title": "💬 Social Media | RSSHub",
+                    "id": 303
+                },
+                {
+                    "url": "https://x.com/awawawhoami",
+                    "title": "maia 🐈 crimew 🏴 (@awawawhoami) / X",
+                    "id": 304
+                },
+                {
+                    "url": "https://x.com/jnyboy",
+                    "title": "jny the human (@jnyboy) / X",
+                    "id": 305
+                },
+                {
+                    "url": "https://www.etsy.com/",
+                    "title": "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone",
+                    "id": 306
+                },
+                {
+                    "url": "https://www.instagram.com/hudsonvalleykennelclub?igsh=Mno4M2dzcmZxd3Jl",
+                    "title": "Hudson Valley Kennel Club (@hudsonvalleykennelclub) • Instagram photos and videos",
+                    "id": 307
+                },
+                {
+                    "url": "https://docs.rsshub.app/routes/social-media#instagram",
+                    "title": "💬 Social Media | RSSHub",
+                    "id": 308
+                },
+                {
+                    "url": "https://rsshub.app/instagram/user/hudsonvalleykennelclub",
+                    "title": "Welcome to RSSHub!",
+                    "id": 309
+                },
+                {
+                    "url": "moz-extension://9bdd027c-fb66-4253-90aa-e849ebf8cf85/reader.html",
+                    "title": "Feedbro",
+                    "id": 310
+                },
+                {
+                    "url": "moz-extension://b354cdd2-9a4e-4a3b-bb04-76fa5695a8c0/options.html",
+                    "title": "RSSHub Radar",
+                    "id": 311
+                },
+                {
+                    "url": "https://docs.rsshub.app/routes/traditional-media",
+                    "title": "📰 Traditional media | RSSHub",
+                    "id": 312
+                },
+                {
+                    "url": "https://rsshub.app/picuki/profile/polyampoppy/:10",
+                    "title": "Welcome to RSSHub!",
+                    "id": 313
+                },
+                {
+                    "url": "https://ooh.directory/blogs/technology/",
+                    "title": "Blogs about Computers, internet, tech (ooh.directory)",
+                    "id": 314
+                },
+                {
+                    "url": "https://www.autodidacts.io/",
+                    "title": "The Autodidacts",
+                    "id": 315
+                },
+                {
+                    "url": "https://www.autodidacts.io/elegant-timing/",
+                    "title": "Implementing Elegant Timing — The Autodidacts",
+                    "id": 316
+                },
+                {
+                    "url": "https://ooh.directory/blogs/society/religion/",
+                    "title": "Blogs about Religion (ooh.directory)",
+                    "id": 317
+                },
+                {
+                    "url": "https://www.newwaysministry.org/blog/",
+                    "title": "Blog - New Ways Ministry",
+                    "id": 318
+                },
+                {
+                    "url": "https://ooh.directory/blogs/humanities/philosophy/",
+                    "title": "Blogs about Philosophy (ooh.directory)",
+                    "id": 319
+                },
+                {
+                    "url": "https://growinguptransgender.com/",
+                    "title": "Growing Up Transgender | Raising our trans child",
+                    "id": 320
+                },
+                {
+                    "url": "https://www.reddit.com/r/rss/comments/139ti96/best_index_of_top_news_rss_feeds/",
+                    "title": "best index of top news RSS feeds? : r/rss",
+                    "id": 321
+                },
+                {
+                    "url": "https://docs.rsshub.app/routes/social-media#youtube",
+                    "title": "💬 Social Media | RSSHub",
+                    "id": 322
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 17,
+            "title": "1978 campaign",
+            "iconColor": "hsla(80, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://app.roll20.net/editor/",
+                    "title": "Snow White & The Seven Cowboys | Roll20",
+                    "id": 331
+                },
+                {
+                    "url": "https://docs.google.com/spreadsheets/d/1ilHwjMZjtTqKzdAvc0rQzg7BsMmcGJ0p225p_iOBGbc/edit?gid=0#gid=0",
+                    "title": "0 - Character Spreadsheet - Tiresias 1978 - Google Sheets",
+                    "id": 332
+                },
+                {
+                    "url": "https://docs.google.com/spreadsheets/d/1bP6pu2hwl9flM72RP5gVAMICVIhPSHbKXmySokzUzIc/edit?gid=0#gid=0",
+                    "title": "0 - Inventory Spreadsheet - Aria 1978 - Google Sheets",
+                    "id": 333
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 18,
+            "title": "romhacks",
+            "iconColor": "hsla(200, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://pokeromcodex.notion.site/Unbound-081f9972dc5b4ee8b77ae7d2c343ca54",
+                    "title": "Unbound",
+                    "id": 369
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 19,
+            "title": "weatherApp",
+            "iconColor": "hsla(240, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.weather.gov/documentation/services-web-api",
+                    "title": "API Web Service",
+                    "id": 341
+                },
+                {
+                    "url": "https://www.geoplugin.com/webservices/csv",
+                    "title": "Webservices:csv - Free IP Geolocation by geoPlugin",
+                    "id": 342
+                },
+                {
+                    "url": "http://www.geoplugin.net/csv.gp?ip=xx.xx.xx.xx",
+                    "title": "geoplugin.net/csv.gp?ip=xx.xx.xx.xx",
+                    "id": 343
+                },
+                {
+                    "url": "https://github.com/stleary/JSON-java/tree/master",
+                    "title": "stleary/JSON-java: A reference implementation of a JSON package in Java.",
+                    "id": 344
+                },
+                {
+                    "url": "https://github.com/FasterXML/jackson",
+                    "title": "GitHub - FasterXML/jackson: Main Portal page for the Jackson project",
+                    "id": 345
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 20,
+            "title": "Philosophy Self-Learning",
+            "iconColor": "hsla(300, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Philosophy_of_Religion",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 346
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Plotinus",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 347
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#St_Augustine",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 348
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Maimonides",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 349
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#St_Aquinas",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 350
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Spinoza",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 351
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Rousseau",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 352
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Kant",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 353
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Hegel",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 354
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Marx",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 355
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Kierkegaard",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 356
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Nietzsche",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 357
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Freud",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 358
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Lacan",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 359
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Sartre",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 360
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Beauvoir",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 361
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Foucault",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 362
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Deleuze",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 363
+                },
+                {
+                    "url": "https://thedailyidea.org/philosophy-syllabi-collection/#Derrida",
+                    "title": "A Collection of 500+ Philosophy Course Syllabi Organised by Topic - The Daily Idea",
+                    "id": 364
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Anselm_of_Canterbury#Writings",
+                    "title": "Anselm of Canterbury - Wikipedia",
+                    "id": 365
+                },
+                {
+                    "url": "http://www.augustinus.it/links/inglese/opere.htm",
+                    "title": "Saint Augustine - Works",
+                    "id": 366
+                },
+                {
+                    "url": "https://www.google.com/search?client=firefox-b-1-d&q=Erlangener+Ausgabe",
+                    "title": "Erlangener Ausgabe - Google Search",
+                    "id": 367
+                },
+                {
+                    "url": "https://www.google.com/search?client=firefox-b-1-d&q=The+American+Edition+%28Luther%27s+Works%29",
+                    "title": "The American Edition (Luther's Works) - Google Search",
+                    "id": 368
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 24,
+            "title": "courses",
+            "iconColor": "hsla(80, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.stopthebleed.org/find-a-course/",
+                    "title": "Find a Course | Stop the Bleed",
+                    "id": 323
+                },
+                {
+                    "url": "https://cms.bleedingcontrol.org/Class/Search",
+                    "title": "https://cms.bleedingcontrol.org/Class/Search",
+                    "id": 324
+                },
+                {
+                    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdM660GEqECcMNgNvguqP9_CnRj-WtI9QAPovHkvvOMl09yIw/viewform",
+                    "title": "Kings County Hospital & KAVI: Stop the Bleed® registration",
+                    "id": 325
+                },
+                {
+                    "url": "https://www.getnaloxonenow.org/#gettraining",
+                    "title": "Get Naloxone Now",
+                    "id": 326
+                },
+                {
+                    "url": "https://www.google.com/maps/place/NYC+Health+%2B+Hospitals%2FKings+County/@40.6636607,-73.9502242,14z/data=!4m6!3m5!1s0x89c25cfc54df183b:0xd13d96d4f3f8cf8a!8m2!3d40.656711!4d-73.9434362!16zL20vMGdfdGd6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",
+                    "title": "NYC Health + Hospitals/Kings County - Google Maps",
+                    "id": 327
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 25,
+            "title": "youtube",
+            "iconColor": "hsla(100, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.youtube.com/watch?v=rlNqcT-Kt9w",
+                    "title": "(312) Finding Love with the Hawk Tuah Dating App - YouTube",
+                    "id": 230
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=EbfJFPVApu8&t=2768s",
+                    "title": "(312) The Dead Grad Student Problem - YouTube",
+                    "id": 231
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=Ap0zNHgZxfA",
+                    "title": "(313) The 3 Salmon Techniques Every Chef Should Learn - YouTube",
+                    "id": 232
+                },
+                {
+                    "url": "https://www.reddit.com/r/commandline/comments/10m34pl/searching_and_watching_youtube_with_thumbnails/",
+                    "title": "searching and watching youtube (with thumbnails) entirely within a terminal (using sixel) : r/commandline",
+                    "id": 233
+                },
+                {
+                    "url": "https://github.com/Euro20179/.files/tree/master/.config/ytfzf",
+                    "title": ".files/.config/ytfzf at master · Euro20179/.files",
+                    "id": 234
+                },
+                {
+                    "url": "https://docs.google.com/document/d/1RNpPIPCvppQaXk3JLV7_16jk2wpkyJHjgszCd1KWUS4/edit?tab=t.0",
+                    "title": "ZERODAY media consumption list - Google Docs",
+                    "id": 235
+                },
+                {
+                    "url": "https://app.plex.tv/desktop/#!/provider/tv.plex.provider.discover/details?key=%2Flibrary%2Fmetadata%2F65de3bcbda56e01f3763f5a4&context=discover.watchlist.recommended%3Ahub.watchlist.continueWatching~0~0",
+                    "title": "Plex",
+                    "id": 236
+                },
+                {
+                    "url": "https://app.plex.tv/desktop/#!/server/c82658924a44e6af6845db0b19fc2e9c447cd5a8/details?key=%2Flibrary%2Fmetadata%2F74423",
+                    "title": "Plex",
+                    "id": 237
+                },
+                {
+                    "url": "https://www.netflix.com/watch/80179855",
+                    "title": "Netflix",
+                    "id": 238
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=xEuBkeolQs0",
+                    "title": "(312) This 90's Christmas Movie is Hilariously Bad - YouTube",
+                    "id": 239
+                },
+                {
+                    "url": "https://123anime.info/anime/death-note/episode/006",
+                    "title": "Watch Death Note",
+                    "id": 240
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=TT0D8mWGxic",
+                    "title": "(316) SpongeBob SquarePants Food Marathon | Binging with Babish - YouTube",
+                    "id": 241
+                },
+                {
+                    "url": "https://www.plex.tv/",
+                    "title": "Stream Movies & Find Shows On The Best Streaming Services",
+                    "id": 242
+                },
+                {
+                    "url": "https://nebula.tv/videos/jacob-geller-does-six-days-in-fallujah-deserve-the-infamy",
+                    "title": "Does Six Days in Fallujah Deserve the Infamy? | Nebula",
+                    "id": 243
+                },
+                {
+                    "url": "https://nebula.tv/jacob-geller?status=unwatched",
+                    "title": "Jacob Geller | Nebula",
+                    "id": 244
+                },
+                {
+                    "url": "https://www.lightnovelworld.co/novel/its-not-easy-to-be-a-man-after-travelling-to-the-future-231/chapter-2",
+                    "title": "https://www.lightnovelworld.co/novel/its-not-easy-to-be-a-man-after-travelling-to-the-future-231/chapter-2",
+                    "id": 245
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 26,
+            "title": "shopping",
+            "iconColor": "hsla(80, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://www.ebay.com/itm/365351767736?_skw=wh%201000xm3&itmmeta=01JJB60BRHN0Q21AE2E1JND4NP&itmprp=enc:AQAJAAAA0HoV3kP08IDx+KZ9MfhVJKkwyIQ98ZD/eLRCasDs7zOUB4FQrG7Z4Q+B/LoC96QHMstmw4OYhhgrswYdcrvhsmx0nkBj7SmzeC/0QwJfmH67jRSws0MB+so5XDAYFt1ZxNkd8+gVcNbpzCqyuO0H2Zj1zPKLxV3rFSdP1UVG3tZosKOwvsmdNtO4wbMLnVUN0R1A3wRA5Zib6g+3yIvtTx1FueMrtytnph+eWat8SJFNlvYpWt9VnwlA9fkhwAPlzyTDqKsh3Vprvko13SM4CR4=|tkp:Bk9SR6y8geaSZQ&LH_Auction=1",
+                    "title": "Sony WH-1000XM3 Wireless Noise Cancelling Headphones+case+cable (T11) CP#2709 | eBay",
+                    "id": 264
+                },
+                {
+                    "url": "https://www.amazon.com/dp/B07PPJZZBB",
+                    "title": "Amazon.com: Dell Precision T1650 Tower Workstation Business Desktop Computer, Intel Quad-Core i7-3770 up to 3.90 GHz, 8GB RAM, 1TB HDD, DVD, WiFi, USB 3.0, Windows 10 Professional (Renewed) : Electronics",
+                    "id": 265
+                },
+                {
+                    "url": "https://www.amazon.com/Cisco-SF200-24P-Smart-Switch-SLM224PT-NA/dp/B004GHMU4M",
+                    "title": "Amazon.com: Cisco SF200-24P Smart Switch: 24 10/100 Ports, 12 of 24 PoE Ports, 2 Combo Mini-GBIC Ports (SLM224PT-NA) : Electronics",
+                    "id": 266
+                },
+                {
+                    "url": "https://newyork.craigslist.org/brk/sys/d/brooklyn-pc-network-parts-routers/7809965623.html",
+                    "title": "PC & Network parts - routers, switches, etc - computers - by owner - electronics sale - craigslist",
+                    "id": 267
+                },
+                {
+                    "url": "https://www.alldaychemist.com/best-seller-products.html",
+                    "title": "Best Seller Medications. Buy These Anyday, Anytime | ADC",
+                    "id": 268
+                },
+                {
+                    "url": "https://www.urbanbodyjewelry.com/products/internally-threaded-titanium-circular-barbell?variant=37599625773209",
+                    "title": "Internally Threaded Titanium Circular Barbell | UrbanBodyJewelry.com",
+                    "id": 269
+                },
+                {
+                    "url": "https://www.amazon.com/gp/css/order-history",
+                    "title": "Your Orders",
+                    "id": 270
+                },
+                {
+                    "url": "https://www.target.com/cart",
+                    "title": "Cart : Target",
+                    "id": 271
+                },
+                {
+                    "url": "https://www.misfitsmarket.com/shop/aisle/gluten-free+shop/all",
+                    "title": "Gluten-free Shop",
+                    "id": 272
+                },
+                {
+                    "url": "https://www.misfitsmarket.com/account",
+                    "title": "My Account",
+                    "id": 273
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        }
+    ],
+    "lastCreatedGroupPosition": 26,
+    "defaultGroupProps": {},
+    "closePopupAfterChangeGroup": true,
+    "closePopupAfterSelectTab": false,
+    "openGroupAfterChange": false,
+    "alwaysAskNewGroupName": true,
+    "createNewGroupWhenOpenNewWindow": false,
+    "openManageGroupsInTab": true,
+    "showConfirmDialogBeforeGroupArchiving": true,
+    "showConfirmDialogBeforeGroupDelete": true,
+    "showNotificationAfterGroupDelete": true,
+    "showContextMenuOnTabs": true,
+    "showContextMenuOnLinks": true,
+    "defaultBookmarksParent": "toolbar_____",
+    "showExtendGroupsPopupWithActiveTabs": false,
+    "showTabsWithThumbnailsInManageGroups": false,
+    "fullPopupWidth": false,
+    "temporaryContainerTitle": "⌚Temporary Container",
+    "contextMenuTab": [
+        "open-in-new-window",
+        "reload",
+        "discard",
+        "remove",
+        "update-thumbnail",
+        "set-group-icon",
+        "move-tab-to-group"
+    ],
+    "contextMenuGroup": [
+        "open-in-new-window",
+        "sort-asc",
+        "sort-desc",
+        "discard",
+        "discard-other",
+        "export-to-bookmarks",
+        "unload",
+        "archive",
+        "rename",
+        "reload-all-tabs"
+    ],
+    "autoBackupEnable": true,
+    "autoBackupLastBackupTimeStamp": 1738425204,
+    "autoBackupIntervalKey": "days",
+    "autoBackupIntervalValue": 1,
+    "autoBackupIncludeTabThumbnails": true,
+    "autoBackupIncludeTabFavIcons": true,
+    "autoBackupFolderName": "STG-backups-FF-134.0.2",
+    "autoBackupByDayIndex": true,
+    "theme": "auto",
+    "hotkeys": [
+        {
+            "value": "Ctrl+Backquote",
+            "action": "load-next-group",
+            "groupId": 0
+        },
+        {
+            "value": "Ctrl+Shift+Backquote",
+            "action": "load-prev-group",
+            "groupId": 0
+        }
+    ]
+}
