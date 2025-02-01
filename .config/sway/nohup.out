@@ -1,0 +1,5 @@
+
+(nm-applet:28500): Gtk-CRITICAL **: 11:44:31.896: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:28500): Gtk-CRITICAL **: 11:44:45.949: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+Gdk-Message: 11:47:12.216: Error reading events from display: Broken pipe
